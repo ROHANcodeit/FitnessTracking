@@ -13,6 +13,11 @@
 		3B1D8931284DE08400D7F7FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D892F284DE08400D7F7FF /* Main.storyboard */; };
 		3B1D8933284DE08E00D7F7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D8932284DE08E00D7F7FF /* Assets.xcassets */; };
 		3B1D8936284DE08E00D7F7FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D8934284DE08E00D7F7FF /* LaunchScreen.storyboard */; };
+		3B1D8940284E395A00D7F7FF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D893F284E395A00D7F7FF /* FirstViewController.swift */; };
+		3B1D8942284E39E700D7F7FF /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D8941284E39E700D7F7FF /* LogInViewController.swift */; };
+		3B1D8944284E3A0500D7F7FF /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D8943284E3A0500D7F7FF /* ForgotViewController.swift */; };
+		3B1D8946284E3A1F00D7F7FF /* RegisterOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D8945284E3A1F00D7F7FF /* RegisterOneViewController.swift */; };
+		3B1D8948284E63F800D7F7FF /* RegisterTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D8947284E63F800D7F7FF /* RegisterTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		3B1D8932284DE08E00D7F7FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B1D8935284DE08E00D7F7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B1D8937284DE08E00D7F7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1D893F284E395A00D7F7FF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3B1D8941284E39E700D7F7FF /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		3B1D8943284E3A0500D7F7FF /* ForgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		3B1D8945284E3A1F00D7F7FF /* RegisterOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterOneViewController.swift; sourceTree = "<group>"; };
+		3B1D8947284E63F800D7F7FF /* RegisterTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				3B1D8929284DE08400D7F7FF /* AppDelegate.swift */,
 				3B1D892B284DE08400D7F7FF /* SceneDelegate.swift */,
 				3B1D892D284DE08400D7F7FF /* ViewController.swift */,
+				3B1D893F284E395A00D7F7FF /* FirstViewController.swift */,
+				3B1D8941284E39E700D7F7FF /* LogInViewController.swift */,
+				3B1D8943284E3A0500D7F7FF /* ForgotViewController.swift */,
+				3B1D8945284E3A1F00D7F7FF /* RegisterOneViewController.swift */,
+				3B1D8947284E63F800D7F7FF /* RegisterTwoViewController.swift */,
 				3B1D892F284DE08400D7F7FF /* Main.storyboard */,
 				3B1D8932284DE08E00D7F7FF /* Assets.xcassets */,
 				3B1D8934284DE08E00D7F7FF /* LaunchScreen.storyboard */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1D8948284E63F800D7F7FF /* RegisterTwoViewController.swift in Sources */,
+				3B1D8940284E395A00D7F7FF /* FirstViewController.swift in Sources */,
 				3B1D892E284DE08400D7F7FF /* ViewController.swift in Sources */,
+				3B1D8946284E3A1F00D7F7FF /* RegisterOneViewController.swift in Sources */,
 				3B1D892A284DE08400D7F7FF /* AppDelegate.swift in Sources */,
+				3B1D8942284E39E700D7F7FF /* LogInViewController.swift in Sources */,
 				3B1D892C284DE08400D7F7FF /* SceneDelegate.swift in Sources */,
+				3B1D8944284E3A0500D7F7FF /* ForgotViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
