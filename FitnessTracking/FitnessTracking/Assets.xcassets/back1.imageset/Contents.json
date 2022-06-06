@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "alex-perez-pEgsWN0kwbQ-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "alex-perez-pEgsWN0kwbQ-unsplash@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "alex-perez-pEgsWN0kwbQ-unsplash@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
